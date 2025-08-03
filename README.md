@@ -1,36 +1,176 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🐦 Bird Law! - A Phoenix Wright Style Courtroom Adventure
 
-## Getting Started
+A hilarious Phoenix Wright-style visual novel game featuring Charlie Kelly from It's Always Sunny in Philadelphia and his expertise in bird law. Experience dramatic courtroom battles, objection sequences, and Charlie's unique legal theories in this interactive adventure!
 
-First, run the development server:
+![Bird Law Game](https://img.shields.io/badge/Game-Bird%20Law!-yellow) ![Next.js](https://img.shields.io/badge/Next.js-15.4.5-black) ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue) ![Framer Motion](https://img.shields.io/badge/Framer%20Motion-Animations-purple)
 
+## 🎮 Game Features
+
+### 🎭 Phoenix Wright-Style Gameplay
+- **Dramatic Objection Sequences** with full-screen animations
+- **Evidence Presentation System** with interactive inventory
+- **Cross-Examination Mechanics** for interrogating witnesses
+- **Character Reaction System** with health/confidence tracking
+- **Multiple Dialogue Paths** leading to different outcomes
+
+### 🎨 Visual & Audio Experience
+- **Custom Character Sprites** in Phoenix Wright style
+- **Dramatic Animations** including pointing gestures and objections
+- **Courtroom Backgrounds** with authentic legal atmosphere
+- **Typewriter Text Effects** for immersive dialogue
+- **Smooth Transitions** and visual effects
+
+### 👥 Characters
+- **Charlie Kelly** - Bird law expert with chaotic legal theories
+- **Judge** - Confused but authoritative courtroom presence
+- **Dee Reynolds** - The defendant (definitely not a bird)
+- **Dennis Reynolds** - Narcissistic prosecuting attorney
+- **Frank Reynolds** - Unreliable witness with questionable testimony
+
+### 📋 Case: "The Great Bird Seed Heist"
+Investigate the theft of bird seed from behind Paddy's Pub in this absurd legal adventure where Charlie must prove his bird law expertise while defending the rights of the avian community.
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+
+- npm, yarn, or pnpm
+
+### Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/Mythicool/birdlaw.git
+cd birdlaw
+```
+
+2. **Install dependencies**
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+3. **Run the development server**
 ```bash
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. **Open the game**
+Navigate to [http://localhost:3000](http://localhost:3000) in your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎯 How to Play
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Start the Game** - Click "Quick Start" or "Select Case"
+2. **Read Dialogue** - Click to advance through conversations
+3. **Make Choices** - Select dialogue options to progress the story
+4. **Present Evidence** - Use the evidence system to support your arguments
+5. **Object!** - Trigger dramatic objection sequences with special choices
+6. **Cross-Examine** - Question witnesses about their testimony
+7. **Solve the Case** - Use Charlie's bird law expertise to reach a conclusion
 
-## Learn More
+### 🎮 Controls
+- **Click** to advance dialogue
+- **Evidence Button** - View your evidence inventory
+- **Present Button** - Present evidence during testimony
+- **Combine Button** - Combine evidence pieces for new insights
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Technical Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Framework**: Next.js 15.4.5 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **State Management**: Zustand
+- **Icons**: Lucide React
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📁 Project Structure
 
-## Deploy on Vercel
+```
+bird-law-game/
+├── src/
+│   ├── app/                 # Next.js app router
+│   ├── components/          # React components
+│   │   ├── CharacterSprite.tsx
+│   │   ├── DialogueEngine.tsx
+│   │   ├── EvidenceSystem.tsx
+│   │   ├── GameEngine.tsx
+│   │   └── ObjectionAnimation.tsx
+│   ├── data/               # Game data and dialogue
+│   │   ├── sampleData.ts
+│   │   └── newCases.ts
+│   ├── store/              # State management
+│   │   └── gameStore.ts
+│   └── types/              # TypeScript definitions
+│       └── game.ts
+├── public/
+│   ├── sprites/            # Character sprites
+│   └── evidence/           # Evidence images
+└── GAME_FEATURES.md        # Detailed feature documentation
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎨 Game Development Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Dialogue System
+- **Branching Conversations** with multiple paths
+- **Character Emotions** affecting sprite display
+- **Evidence Requirements** for certain choices
+- **Health/Confidence System** with consequences
+
+### Animation System
+- **Character Animations** (normal, pointing, objection, shocked)
+- **Objection Overlays** with dramatic effects
+- **Smooth Transitions** between game states
+- **Visual Feedback** for player actions
+
+### Evidence System
+- **Interactive Inventory** with detailed descriptions
+- **Evidence Combination** mechanics
+- **Presentation System** for courtroom moments
+- **Relevance Tracking** for case progression
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+### Development Guidelines
+- Follow TypeScript best practices
+- Use Tailwind CSS for styling
+- Maintain the Phoenix Wright aesthetic
+- Test all dialogue paths
+- Ensure animations are smooth and performant
+
+## 📜 License
+
+This project is for educational and entertainment purposes. It's a fan-made tribute to Phoenix Wright: Ace Attorney and It's Always Sunny in Philadelphia.
+
+## 🎭 Credits
+
+- **Inspired by**: Phoenix Wright: Ace Attorney series by Capcom
+- **Characters**: It's Always Sunny in Philadelphia
+- **Development**: Built with modern web technologies
+- **Art Style**: Phoenix Wright visual novel aesthetic
+
+## 🐛 Known Issues
+
+- None currently! All dialogue nodes are properly connected
+- All animations work smoothly
+- Evidence system is fully functional
+
+## 🔮 Future Enhancements
+
+- **Sound Effects** - Phoenix Wright-style audio
+- **More Cases** - Additional bird law adventures
+- **Voice Acting** - Character voice lines
+- **Mobile Support** - Touch-friendly controls
+- **Save System** - Progress persistence
+
+---
+
+*"Bird law in this country is not governed by reason!"* - Charlie Kelly, Bird Law Expert

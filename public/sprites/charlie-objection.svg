@@ -1,0 +1,37 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Charlie Kelly objection sprite -->
+  <rect width="200" height="300" fill="#ff6b6b" stroke="#333" stroke-width="2"/>
+  
+  <!-- Head -->
+  <circle cx="100" cy="80" r="40" fill="#fdbcb4" stroke="#333" stroke-width="2"/>
+  
+  <!-- Hair (messy) -->
+  <path d="M 60 50 Q 100 20 140 50 Q 135 30 125 40 Q 115 25 105 35 Q 95 25 85 40 Q 75 30 60 50" fill="#8B4513"/>
+  
+  <!-- Eyes (wide) -->
+  <circle cx="85" cy="75" r="8" fill="white"/>
+  <circle cx="115" cy="75" r="8" fill="white"/>
+  <circle cx="85" cy="75" r="4" fill="black"/>
+  <circle cx="115" cy="75" r="4" fill="black"/>
+  
+  <!-- Nose -->
+  <ellipse cx="100" cy="85" rx="3" ry="5" fill="#fdbcb4" stroke="#333"/>
+  
+  <!-- Mouth (shouting) -->
+  <ellipse cx="100" cy="95" rx="8" ry="6" fill="black"/>
+  
+  <!-- Body -->
+  <rect x="70" y="120" width="60" height="80" fill="#4a5568" stroke="#333" stroke-width="2"/>
+  
+  <!-- Arms (pointing) -->
+  <rect x="30" y="120" width="40" height="15" fill="#fdbcb4" stroke="#333" stroke-width="2" transform="rotate(-20 50 127)"/>
+  <rect x="130" y="130" width="30" height="15" fill="#fdbcb4" stroke="#333" stroke-width="2"/>
+  
+  <!-- Legs -->
+  <rect x="80" y="200" width="15" height="60" fill="#2d3748" stroke="#333" stroke-width="2"/>
+  <rect x="105" y="200" width="15" height="60" fill="#2d3748" stroke="#333" stroke-width="2"/>
+  
+  <!-- Objection text -->
+  <text x="100" y="40" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="white">OBJECTION!</text>
+  <text x="100" y="280" text-anchor="middle" font-family="Arial" font-size="12" fill="#333">Charlie (Objecting)</text>
+</svg>

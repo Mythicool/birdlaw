@@ -1,0 +1,32 @@
+<svg width="150" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bird seed bag evidence -->
+  <rect width="150" height="200" fill="#f7fafc" stroke="#333" stroke-width="2"/>
+  
+  <!-- Bag shape -->
+  <path d="M 30 50 L 120 50 L 125 180 L 25 180 Z" fill="#8B4513" stroke="#333" stroke-width="2"/>
+  
+  <!-- Torn opening -->
+  <path d="M 30 50 L 45 40 L 60 55 L 75 45 L 90 60 L 105 45 L 120 50" fill="none" stroke="#333" stroke-width="3"/>
+  
+  <!-- Seeds spilling out -->
+  <circle cx="50" cy="45" r="2" fill="#F4D03F"/>
+  <circle cx="65" cy="40" r="2" fill="#F4D03F"/>
+  <circle cx="80" cy="48" r="2" fill="#F4D03F"/>
+  <circle cx="95" cy="42" r="2" fill="#F4D03F"/>
+  <circle cx="45" cy="35" r="2" fill="#F4D03F"/>
+  <circle cx="85" cy="35" r="2" fill="#F4D03F"/>
+  
+  <!-- Bag label -->
+  <rect x="40" y="80" width="70" height="40" fill="white" stroke="#333"/>
+  <text x="75" y="95" text-anchor="middle" font-family="Arial" font-size="8" fill="#333">PREMIUM</text>
+  <text x="75" y="105" text-anchor="middle" font-family="Arial" font-size="8" fill="#333">BIRD SEED</text>
+  <text x="75" y="115" text-anchor="middle" font-family="Arial" font-size="6" fill="#666">Sunflower Mix</text>
+  
+  <!-- Peck marks -->
+  <path d="M 35 60 L 40 65 L 35 70" stroke="#333" stroke-width="2" fill="none"/>
+  <path d="M 115 70 L 110 75 L 115 80" stroke="#333" stroke-width="2" fill="none"/>
+  <path d="M 50 160 L 55 165 L 50 170" stroke="#333" stroke-width="2" fill="none"/>
+  
+  <!-- Evidence label -->
+  <text x="75" y="190" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">Evidence: Torn Seed Bag</text>
+</svg>

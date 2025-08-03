@@ -1,0 +1,38 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Judge normal stance -->
+  <rect width="300" height="400" fill="#f4f4f4" stroke="#333" stroke-width="2"/>
+  
+  <!-- Judge's robe -->
+  <ellipse cx="150" cy="300" rx="60" ry="90" fill="#1a1a1a" stroke="#333" stroke-width="2"/>
+  
+  <!-- Arms (crossed or at sides) -->
+  <rect x="80" y="240" width="40" height="20" fill="#fdbcb4" stroke="#333" stroke-width="2"/>
+  <rect x="180" y="240" width="40" height="20" fill="#fdbcb4" stroke="#333" stroke-width="2"/>
+  
+  <!-- Head -->
+  <circle cx="150" cy="120" r="45" fill="#fdbcb4" stroke="#333" stroke-width="2"/>
+  
+  <!-- Judge's wig/hair (white/gray) -->
+  <path d="M 105 85 Q 125 65 145 80 Q 150 60 155 80 Q 175 65 195 85 Q 185 75 175 90 Q 165 70 155 85 Q 150 70 145 85 Q 135 75 125 90 Q 115 75 105 85" fill="#E5E5E5"/>
+  
+  <!-- Serious eyes -->
+  <ellipse cx="130" cy="110" rx="8" ry="6" fill="white"/>
+  <ellipse cx="170" cy="110" rx="8" ry="6" fill="white"/>
+  <circle cx="130" cy="110" r="4" fill="black"/>
+  <circle cx="170" cy="110" r="4" fill="black"/>
+  <!-- Eyebrows (stern) -->
+  <path d="M 120 100 L 140 105" stroke="#666" stroke-width="3"/>
+  <path d="M 160 105 L 180 100" stroke="#666" stroke-width="3"/>
+  
+  <!-- Nose -->
+  <ellipse cx="150" cy="125" rx="4" ry="8" fill="#fdbcb4" stroke="#333"/>
+  
+  <!-- Mouth (neutral/stern) -->
+  <line x1="140" y1="140" x2="160" y2="140" stroke="#333" stroke-width="2"/>
+  
+  <!-- Judge's collar -->
+  <rect x="130" y="165" width="40" height="15" fill="white" stroke="#333" stroke-width="1"/>
+  
+  <!-- Text label -->
+  <text x="150" y="390" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#333">Judge</text>
+</svg>

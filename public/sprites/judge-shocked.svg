@@ -1,0 +1,67 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Judge shocked/surprised -->
+  <rect width="300" height="400" fill="#f4f4f4" stroke="#333" stroke-width="2"/>
+  
+  <!-- Shock effect lines -->
+  <g stroke="#FFD700" stroke-width="2" opacity="0.7">
+    <line x1="120" y1="60" x2="110" y2="50"/>
+    <line x1="180" y1="60" x2="190" y2="50"/>
+    <line x1="140" y1="50" x2="135" y2="40"/>
+    <line x1="160" y1="50" x2="165" y2="40"/>
+  </g>
+  
+  <!-- Judge's robe (slightly tilted from shock) -->
+  <ellipse cx="150" cy="300" rx="60" ry="90" fill="#1a1a1a" stroke="#333" stroke-width="2" transform="rotate(2 150 300)"/>
+  
+  <!-- Arms (raised in shock) -->
+  <rect x="70" y="200" width="40" height="20" fill="#fdbcb4" stroke="#333" stroke-width="2" transform="rotate(-20 90 210)"/>
+  <rect x="190" y="200" width="40" height="20" fill="#fdbcb4" stroke="#333" stroke-width="2" transform="rotate(20 210 210)"/>
+  
+  <!-- Head (tilted back slightly) -->
+  <circle cx="150" cy="120" r="45" fill="#fdbcb4" stroke="#333" stroke-width="2"/>
+  
+  <!-- Judge's wig/hair (disheveled from shock) -->
+  <path d="M 105 85 Q 125 60 145 75 Q 150 55 155 75 Q 175 60 195 85 Q 190 70 185 90 Q 170 65 160 85 Q 150 60 145 85 Q 130 70 120 90 Q 110 70 105 85" fill="#E5E5E5"/>
+  
+  <!-- Shocked eyes (wide open) -->
+  <ellipse cx="130" cy="110" rx="12" ry="10" fill="white"/>
+  <ellipse cx="170" cy="110" rx="12" ry="10" fill="white"/>
+  <circle cx="130" cy="110" r="6" fill="black"/>
+  <circle cx="170" cy="110" r="6" fill="black"/>
+  <!-- Small pupils for shock effect -->
+  <circle cx="130" cy="110" r="2" fill="white"/>
+  <circle cx="170" cy="110" r="2" fill="white"/>
+  
+  <!-- Raised eyebrows (shocked) -->
+  <path d="M 115 95 L 135 90" stroke="#666" stroke-width="3"/>
+  <path d="M 165 90 L 185 95" stroke="#666" stroke-width="3"/>
+  
+  <!-- Nose -->
+  <ellipse cx="150" cy="125" rx="4" ry="8" fill="#fdbcb4" stroke="#333"/>
+  
+  <!-- Mouth (open in shock) -->
+  <ellipse cx="150" cy="145" rx="8" ry="12" fill="#8B0000"/>
+  <ellipse cx="150" cy="142" rx="5" ry="8" fill="white"/>
+  
+  <!-- Judge's collar -->
+  <rect x="130" y="165" width="40" height="15" fill="white" stroke="#333" stroke-width="1"/>
+  
+  <!-- Shock effect symbols around head -->
+  <g fill="#FFD700" opacity="0.8">
+    <polygon points="100,90 105,100 95,100" />
+    <polygon points="200,90 205,100 195,100" />
+    <polygon points="125,70 130,80 120,80" />
+    <polygon points="175,70 180,80 170,80" />
+  </g>
+  
+  <!-- Motion lines for shock -->
+  <g stroke="#666" stroke-width="1" opacity="0.6">
+    <line x1="80" y1="120" x2="75" y2="115"/>
+    <line x1="220" y1="120" x2="225" y2="115"/>
+    <line x1="85" y1="140" x2="80" y2="135"/>
+    <line x1="215" y1="140" x2="220" y2="135"/>
+  </g>
+  
+  <!-- Text label -->
+  <text x="150" y="390" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#333">Judge - SHOCKED!</text>
+</svg>
